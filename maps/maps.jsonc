@@ -1,0 +1,45 @@
+[
+  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#maps
+  {
+    "name": "FillmoreSim",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/FillmoreSim.png"
+  },
+  {
+    "name": "BloodpoolSim",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/BloodpoolSim.png"
+  },
+  {
+    "name": "KasandoraSim",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/KasandoraSim.png"
+  },
+  {
+    "name": "AitosSim",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/AitosSim.png"
+  },
+  {
+    "name": "MarahnaSim",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/MarahnaSim.png"
+  },
+  {
+    "name": "NorthwallSim",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/NorthwallSim.png"
+  },
+  {
+    "name": "Sky",
+    "location_size": 8,
+    "location_border_thickness": 1,
+    "img": "images/maps/Sky.png"
+  }
+]

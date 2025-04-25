@@ -1,0 +1,162 @@
+[
+    {
+        "name": "Fillmore Forest",
+        "children": [
+          {
+            "name": "Forest",
+            "sections": [
+              {"name": "Tree Near Entrance", "item_count": 1},
+              {"name": "Tree From Ropeway", "item_count": 1},
+              {"name": "Top and Center", "item_count": 1},
+              {"name": "Spiky Plants", "item_count": 1},
+              {"name": "Tree Near Centaur", "item_count": 1},
+              {"name": "Centaur", "item_count": 1}
+            ],
+            "map_locations": [
+              {"map": "FillmoreSim", "x": 400, "y": 210, "shape": "diamond", "size": 24,},
+              {"map": "FillmoreSim", "x": 400, "y": 210, "shape": "diamond", "size": 24,},
+              {"map": "FillmoreSim", "x": 400, "y": 210, "shape": "diamond", "size": 24,},
+              {"map": "FillmoreSim", "x": 400, "y": 210, "shape": "diamond", "size": 24,},
+              {"map": "FillmoreSim", "x": 400, "y": 210, "shape": "diamond", "size": 24,},
+              {"map": "FillmoreSim", "x": 400, "y": 210, "shape": "diamond", "size": 24,}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fillmore",
+        "children": [
+          {
+            "name": "Bat Left",
+            "sections": [
+              {"name": "Bomb","item_count": 1}
+            ],
+            "map_locations": [
+              {"map": "FillmoreSim", "x": 96, "y": 80}
+            ]
+          },
+          {
+            "name": "Bat Right",
+            "sections": [
+              {"name": "Advancement 1","item_count": 1}
+            ],
+            "map_locations": [
+              {"map": "FillmoreSim", "x": 415, "y": 145}
+            ]
+          },
+          {
+            "name": "Bat Bottom",
+            "access_rules": ["Lightning"],
+            "sections": [
+              {"name": "Strength Of Angel","item_count": 1}
+            ],
+            "map_locations": [
+              {"map": "FillmoreSim", "x": 288, "y": 465}
+            ]
+          },
+          {
+            "name": "Dragon",
+            "access_rules": ["Lightning"],
+            "sections": [
+              {"name": "Advancement 2","item_count": 1}
+            ],
+            "map_locations": [
+              {"map": "FillmoreSim", "x": 32, "y": 272}
+            ]
+          },
+          {
+            "name": "Rocks",
+            "access_rules": ["Lightning"],
+            "sections": [
+              {"name": "Magical Fire","item_count": 1}
+            ],
+            "map_locations": [
+              {"map": "FillmoreSim", "x": 340, "y": 370}
+            ]
+          },
+          {
+            "name": "Forest Path",
+            "access_rules": ["Lightning"],
+            "sections": [
+              {"name": "Source Of Magic","item_count": 1}
+            ],
+            "map_locations": [
+              {"map": "FillmoreSim", "x": 340, "y": 280}
+            ]
+          },
+          {
+            "name": "Ocean",
+            "access_rules": ["Compass, Lightning"],
+            "sections": [
+              {"name": "Source Of Life","item_count": 1}
+            ],
+            "map_locations": [
+              {"map": "FillmoreSim", "x": 40, "y": 400}
+            ]
+          },
+          {
+            "name": "Temple",
+            "sections": [
+              {"access_rules": ["Lightning"],
+                "name": "Bridge","item_count": 1},
+              {"name": "64 Population", "item_count": 1},
+              {"name": "128 Population", "item_count": 1},
+              {
+                "access_rules": ["Lightning"],
+                "name": "256 Population",
+                "item_count": 1
+              },
+              {
+                "access_rules": ["Lightning, FMAdvancement"],
+                "name": "512 Population",
+                "item_count": 1
+              },
+              {
+                "access_rules": ["Lightning, FMAdvancement2, Wheat"],
+                "name": "Max Population",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {"map": "FillmoreSim", "x": 223, "y": 219},
+              {"map": "FillmoreSim", "x": 223, "y": 219},
+              {"map": "FillmoreSim", "x": 223, "y": 219},
+              {"map": "FillmoreSim", "x": 223, "y": 219},
+              {"map": "FillmoreSim", "x": 223, "y": 219},
+              {"map": "FillmoreSim", "x": 223, "y": 219}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fillmore Chasm",
+        "access_rules": ["Lightning"],
+        "children": [
+          {
+            "name": "Chasm",
+            "sections": [
+              {"name": "Lower Right Of Waterfall", "item_count": 1},
+              {"name": "Bone Pile", "item_count": 1},
+              {"name": "Left Of Column", "item_count": 1},
+              {"name": "Right Of Column", "item_count": 1},
+              {"name": "Left Of Waterfall", "item_count": 1},
+              {"name": "Tunnel", "item_count": 1},
+              {"name": "S-Shaped Tunnel", "item_count": 1},
+              {"name": "Falling Spikes", "item_count": 1},
+              {"name": "Minotaurus", "item_count": 1}
+            ],
+            "map_locations": [
+              {"map": "FillmoreSim", "x": 400, "y": 350, "shape": "diamond", "size": 24,},
+              {"map": "FillmoreSim", "x": 400, "y": 350, "shape": "diamond", "size": 24,},
+              {"map": "FillmoreSim", "x": 400, "y": 350, "shape": "diamond", "size": 24,},
+              {"map": "FillmoreSim", "x": 400, "y": 350, "shape": "diamond", "size": 24,},
+              {"map": "FillmoreSim", "x": 400, "y": 350, "shape": "diamond", "size": 24,},
+              {"map": "FillmoreSim", "x": 400, "y": 350, "shape": "diamond", "size": 24,},
+              {"map": "FillmoreSim", "x": 400, "y": 350, "shape": "diamond", "size": 24,},
+              {"map": "FillmoreSim", "x": 400, "y": 350, "shape": "diamond", "size": 24,},
+              {"map": "FillmoreSim", "x": 400, "y": 350, "shape": "diamond", "size": 24,}
+            ]
+          }
+        ]
+      }
+]

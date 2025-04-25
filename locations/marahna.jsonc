@@ -1,0 +1,137 @@
+[
+  {
+    "name": "Marahna Swamp",
+    "access_rules": ["Level:7"],
+    "children": [
+      {
+        "name": "Swamp",
+        "sections": [
+          {"name": "Ruins Left", "item_count": 1},
+          {"name": "Ruins Right", "item_count": 1},
+          {"name": "Hut", "item_count": 1},
+          {"name": "Pillars", "item_count": 1},
+          {"name": "Rafflasher", "item_count": 1}
+        ],
+        "map_locations": [
+          {"map": "MarahnaSim", "x": 205, "y": 295, "shape": "diamond", "size": 24,},
+          {"map": "MarahnaSim", "x": 205, "y": 295, "shape": "diamond", "size": 24,},
+          {"map": "MarahnaSim", "x": 205, "y": 295, "shape": "diamond", "size": 24,},
+          {"map": "MarahnaSim", "x": 205, "y": 295, "shape": "diamond", "size": 24,},
+          {"map": "MarahnaSim", "x": 205, "y": 295, "shape": "diamond", "size": 24,}
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Marahna",
+    "access_rules": ["@Marahna Swamp, Lightning"],
+    "children": [
+      {
+        "name": "Dragon Left",
+        "sections": [
+          {"name": "Strength Of Angel", "item_count": 1}
+        ],
+        "map_locations": [
+          {"map": "MarahnaSim", "x": 160, "y": 211}
+        ]
+      },
+      {
+        "name": "Dragon Right",
+        "access_rules": ["Sun"],
+        "sections": [
+          {"name": "Bomb", "item_count": 1}
+        ],
+        "map_locations": [
+          {"map": "MarahnaSim", "x": 416, "y": 403}
+        ]
+      },
+      {
+        "name": "Demon",
+        "access_rules": ["Earthquake"],
+        "sections": [
+          {"name": "Advancement 1", "item_count": 1},
+          {"access_rules": ["Sun"],
+            "name": "Advancement 2", "item_count": 1}
+        ],
+        "map_locations": [
+          {"map": "MarahnaSim", "x": 96, "y": 82},
+          {"map": "MarahnaSim", "x": 96, "y": 82}
+        ]
+      },
+      {
+        "name": "Bat",
+        "access_rules": ["Sun"],
+        "sections": [
+          {"name": "Advancement 1", "item_count": 1},
+          {"access_rules": ["Earthquake"],
+            "name": "Advancement 2", "item_count": 1}
+        ],
+        "map_locations": [
+          {"map": "MarahnaSim", "x": 32, "y": 403},
+          {"map": "MarahnaSim", "x": 32, "y": 403}
+        ]
+      },
+      {
+        "name": "Island",
+        
+        "sections": [
+          {"access_rules": ["Tablet, Earthquake, Sun"],
+            "name": "Magical Aura", "item_count": 1},
+          {"access_rules": ["Compass"],
+            "name": "Source Of Magic", "item_count": 1}
+        ],
+        "map_locations": [
+          {"map": "MarahnaSim", "x": 445, "y": 90},
+          {"map": "MarahnaSim", "x": 445, "y": 90}
+        ]
+      },
+      {
+        "name": "Temple",
+        "sections": [
+          { "access_rules": ["Sun, Earthquake"],
+            "name": "Herb", "item_count": 1},
+          {"name": "64 Population", "item_count": 1},
+          {"name": "128 Population", "item_count": 1},
+          {"access_rules": ["Sun, Earthquake", "MHAdvancement, Sun"],
+            "name": "256 Population","item_count": 1},
+          {
+            "access_rules": ["MHAdvancement2, Sun, Earthquake, Wheat"],
+            "name": "Max Population",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {"map": "MarahnaSim", "x": 287, "y": 288},
+          {"map": "MarahnaSim", "x": 287, "y": 288},
+          {"map": "MarahnaSim", "x": 287, "y": 288},
+          {"map": "MarahnaSim", "x": 287, "y": 288},
+          {"map": "MarahnaSim", "x": 287, "y": 288},
+          {"map": "MarahnaSim", "x": 287, "y": 288}
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Marahna Temple",
+    "access_rules": ["@Marahna, Earthquake, Sun"],
+    "children": [
+      {
+        "name": "Cult Temple",
+        "sections": [
+          {"name": "Falling Platforms", "item_count": 1},
+          {"name": "Left Path Ledge", "item_count": 1},
+          {"name": "Right Path Between Spikes", "item_count": 1},
+		  {"name": "Hidden Pillar", "item_count": 1},
+          {"name": "Kalia", "item_count": 1}
+        ],
+        "map_locations": [
+          {"map": "MarahnaSim", "x": 112, "y": 337, "shape": "diamond", "size": 24,},
+          {"map": "MarahnaSim", "x": 112, "y": 337, "shape": "diamond", "size": 24,},
+          {"map": "MarahnaSim", "x": 112, "y": 337, "shape": "diamond", "size": 24,},
+		  {"map": "MarahnaSim", "x": 112, "y": 337, "shape": "diamond", "size": 24,},
+          {"map": "MarahnaSim", "x": 112, "y": 337, "shape": "diamond", "size": 24,}
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,338 @@
+[
+  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
+  {
+    "name": "Toggle",
+    "type": "toggle",
+    "img": "images/items/toggle.png",
+    "codes": "toggle"
+  },
+  {
+    "name": "Magical Fire",
+    "type": "toggle",
+    "img": "images/items/MagicalFire.png",
+    "codes": "Fire"
+  },
+  {
+    "name": "Magical Stardust",
+    "type": "toggle",
+    "img": "images/items/MagicalStardust.png",
+    "codes": "Stardust"
+  },
+  {
+    "name": "Magical Aura",
+    "type": "toggle",
+    "img": "images/items/MagicalAura.png",
+    "codes": "Aura"
+  },
+  {
+    "name": "Magical Light",
+    "type": "toggle",
+    "img": "images/items/MagicalLight.png",
+    "codes": "Light"
+  },
+  {
+    "name": "Source of Life",
+    "type": "consumable",
+    "img": "images/items/SourceLife.png",
+    "max_quantity": 4,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "SourceLife"
+  },
+  {
+    "name": "Source of Magic",
+    "type": "consumable",
+    "img": "images/items/SourceMagic.png",
+    "max_quantity": 7,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "SourceMagic"
+  },
+  {
+    "name": "Bread",
+    "type": "toggle",
+    "img": "images/items/Bread.png",
+    "codes": "Bread"
+  },
+  {
+    "name": "Wheat",
+    "type": "toggle",
+    "img": "images/items/Wheat.png",
+    "codes": "Wheat"
+  },
+  {
+    "name": "Herb",
+    "type": "toggle",
+    "img": "images/items/Herb.png",
+    "codes": "Herb"
+  },
+  {
+    "name": "Bridge",
+    "type": "toggle",
+    "img": "images/items/Bridge.png",
+    "codes": "Bridge"
+  },
+  {
+    "name": "Music",
+    "type": "toggle",
+    "img": "images/items/Music.png",
+    "codes": "Music"
+  },
+  {
+    "name": "Ancient Tablet",
+    "type": "toggle",
+    "img": "images/items/Tablet.png",
+    "codes": "Tablet"
+  },
+  {
+    "name": "Magic Skull",
+    "type": "toggle",
+    "img": "images/items/Skull.png",
+    "codes": "Skull"
+  },
+  {
+    "name": "Fleece",
+    "type": "toggle",
+    "img": "images/items/Fleece.png",
+    "codes": "Fleece"
+  },
+  {
+    "name": "Compass",
+    "type": "toggle",
+    "img": "images/items/Compass.png",
+    "codes": "Compass"
+  },
+  {
+    "name": "Level Up",
+    "type": "consumable",
+    "img": "images/items/Level.png",
+    "max_quantity": 17,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "Level"
+  },
+  {
+    "name": "Flame Sword",
+    "type": "toggle",
+    "img": "images/items/Sword.png",
+    "codes": "Sword"
+  },
+  {
+    "name": "Fillmore Advancement",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/AdvancementBase.png",
+        "codes": "FMAdvancement",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/Advancement3.png",
+        "codes": "FMAdvancement2",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Bloodpool Advancement",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/AdvancementBase.png",
+        "codes": "BPAdvancement",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/Advancement3.png",
+        "codes": "BPAdvancement2",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Kasandora Advancement",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/AdvancementBase.png",
+        "codes": "KDAdvancement",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/Advancement3.png",
+        "codes": "KDAdvancement2",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Aitos Advancement",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/AdvancementBase.png",
+        "codes": "ATAdvancement",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/Advancement3.png",
+        "codes": "ATAdvancement2",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Marahna Advancement",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/AdvancementBase.png",
+        "codes": "MHAdvancement",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/Advancement3.png",
+        "codes": "MHAdvancement2",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Northwall Advancement",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/AdvancementBase.png",
+        "codes": "NWAdvancement",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/Advancement3.png",
+        "codes": "NWAdvancement2",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Progressive Arrow",
+    "type": "consumable",
+    "img": "images/items/Arrow.png",
+    "max_quantity": 8,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "Arrow"
+  },
+  {
+    "name": "Dheim Crystal",
+    "type": "consumable",
+    "img": "images/items/Darkheimcrystal.gif",
+    "max_quantity": 50,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "Crystal"
+  },
+  {
+    "name": "Lightning",
+    "type": "toggle",
+    "img": "images/items/Lightning.png",
+    "codes": "Lightning"
+  },
+  {
+    "name": "Rain",
+    "type": "toggle",
+    "img": "images/items/Rain.png",
+    "codes": "Rain"
+  },
+  {
+    "name": "Sun",
+    "type": "toggle",
+    "img": "images/items/Sun.png",
+    "codes": "Sun"
+  },
+  {
+    "name": "Wind",
+    "type": "toggle",
+    "img": "images/items/Wind.png",
+    "codes": "Wind"
+  },
+  {
+    "name": "Earthquake",
+    "type": "toggle",
+    "img": "images/items/Earthquake.png",
+    "codes": "Earthquake"
+  },
+  {
+    "name": "Progressive",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/progressive.png",
+        "codes": "progressive",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/progressive_2.png",
+        "codes": "progressive_2",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Consumable",
+    "type": "consumable",
+    "img": "images/items/consumable.png",
+    "max_quantity": 8,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "consumable"
+  },
+  {
+    "name": "Progressive Toggle",
+    "type": "progressive_toggle",
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/progressive.png",
+        "codes": "progressive_toggle",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/progressive_2.png",
+        "codes": "progressive_toggle_2",
+        "inherit_codes": false
+      }
+    ]
+  }
+]

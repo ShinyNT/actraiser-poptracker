@@ -1,0 +1,147 @@
+[
+  {
+    "name": "Kasandora Desert",
+    "access_rules": ["Level:4"],
+    "children": [
+      {
+        "name": "Desert",
+        "sections": [
+          {"name": "Rock Spires", "item_count": 1},
+          {"name": "Top of Left Tower", "item_count": 1},
+          {"name": "Top of Right Tower", "item_count": 1},
+          {"name": "Below Towers", "item_count": 1},
+          {"name": "Rocks Near Dagoba", "item_count": 1},
+          {"name": "Dagoba", "item_count": 1}
+        ],
+        "map_locations": [
+          {"map": "KasandoraSim", "x": 180, "y": 230},
+          {"map": "KasandoraSim", "x": 180, "y": 230},
+          {"map": "KasandoraSim", "x": 180, "y": 230},
+          {"map": "KasandoraSim", "x": 180, "y": 230},
+          {"map": "KasandoraSim", "x": 180, "y": 230},
+          {"map": "KasandoraSim", "x": 180, "y": 230}
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Kasandora",
+    "access_rules": ["@Kasandora Desert, Rain"],
+    "children":[
+      {
+        "name": "Lost Man",
+        "sections": [
+          {"name": "Music", "item_count": 1},
+          {"name": "Source of Magic", "item_count": 1}
+        ],
+        "map_locations": [
+          {"map": "KasandoraSim", "x": 400, "y": 215},
+          {"map": "KasandoraSim", "x": 400, "y": 215}
+        ]
+      },
+      {
+        "name": "Bat",
+        "sections": [
+          {"name": "Strength Of Angel", "item_count": 1}
+        ],
+        "map_locations": [
+          {"map": "KasandoraSim", "x": 280, "y": 275}
+        ]
+      },
+      {
+        "name": "Dragon",
+        "sections": [
+          {"name": "Bomb", "item_count": 1}
+        ],
+        "map_locations": [
+          {"map": "KasandoraSim", "x": 410, "y": 80}
+        ]
+      },
+      {
+        "name": "Demon Bottom",
+        "sections": [
+          {"name": "Advancement 1", "item_count": 1},
+          {"name": "Advancement 2", "item_count": 1}
+        ],
+        "map_locations": [
+          {"map": "KasandoraSim", "x": 405, "y": 405},
+          {"map": "KasandoraSim", "x": 405, "y": 405}
+        ]
+      },
+      {
+        "name": "Demon Top",
+        "sections": [
+          {"name": "Advancement 1", "item_count": 1},
+          {"name": "Advancement 2", "item_count": 1}
+        ],
+        "map_locations": [
+          {"map": "KasandoraSim", "x": 280, "y": 90},
+          {"map": "KasandoraSim", "x": 280, "y": 90}
+        ]
+      },
+      {
+        "name": "Pyramid",
+        "access_rules": ["Earthquake, Level:7"],
+        "sections": [
+          {"name": "Source of Life", "item_count": 1}
+        ],
+        "map_locations": [
+          {"map": "KasandoraSim", "x": 325, "y": 100}
+        ]
+      },
+      {
+        "name": "Temple",
+        "sections": [
+          {
+            "access_rules": ["Herb"],
+            "name": "Tablet", "item_count": 1
+          },
+          {"name": "64 Population", "item_count": 1},
+          {"name": "128 Population", "item_count": 1},
+          {"name": "256 Population","item_count": 1},
+          {
+            "access_rules": ["Herb, KDAdvancement"],
+            "name": "512 Population",
+            "item_count": 1
+          },
+          {
+            "access_rules": ["Herb, KDAdvancement:2, Wheat"],
+            "name": "Max Population",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {"map": "KasandoraSim", "x": 150, "y": 355},
+          {"map": "KasandoraSim", "x": 150, "y": 355},
+          {"map": "KasandoraSim", "x": 150, "y": 355},
+          {"map": "KasandoraSim", "x": 150, "y": 355},
+          {"map": "KasandoraSim", "x": 150, "y": 355},
+          {"map": "KasandoraSim", "x": 150, "y": 355}
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Kasandora Pyramid",
+    "access_rules": ["@Kasandora"],
+    "children": [
+      {
+        "name": "Pyramid",
+        "sections": [
+          {"name": "Statue Room Center Platform", "item_count": 1},
+          {"name": "Statue Room High Ledge", "item_count": 1},
+          {"name": "Ledge With Scorman", "item_count": 1},
+          {"name": "Red Bird God", "item_count": 1},
+          {"name": "Pharaoh", "item_count": 1}
+        ],
+        "map_locations": [
+          {"map": "KasandoraSim", "x": 330, "y": 75},
+          {"map": "KasandoraSim", "x": 330, "y": 75},
+          {"map": "KasandoraSim", "x": 330, "y": 75},
+          {"map": "KasandoraSim", "x": 330, "y": 75},
+          {"map": "KasandoraSim", "x": 330, "y": 75}
+        ]
+      }
+    ]
+  }
+]

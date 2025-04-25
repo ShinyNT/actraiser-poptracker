@@ -1,0 +1,129 @@
+[
+  {
+    "name": "Aitos Mountain",
+    "access_rules": ["Level:5"],
+    "children": [
+      {
+        "name": "Mountain",
+        "sections": [
+          {"name": "Between Lava Pits", "item_count": 1},
+          {"name": "Pass to Crater", "item_count": 1},
+          {"name": "Bottom Of Crater", "item_count": 1},
+          {"name": "Waterfall Left", "item_count": 1},
+          {"name": "Waterfall Center", "item_count": 1},
+          {"name": "Waterfall Right", "item_count": 1},
+          {"name": "Serpent", "item_count": 1}
+        ],
+        "map_locations": [
+          {"map": "AitosSim", "x": 223, "y": 240, "shape": "diamond", "size": 24,},
+          {"map": "AitosSim", "x": 223, "y": 240, "shape": "diamond", "size": 24,},
+          {"map": "AitosSim", "x": 223, "y": 240, "shape": "diamond", "size": 24,},
+          {"map": "AitosSim", "x": 223, "y": 240, "shape": "diamond", "size": 24,},
+          {"map": "AitosSim", "x": 223, "y": 240, "shape": "diamond", "size": 24,},
+          {"map": "AitosSim", "x": 223, "y": 240, "shape": "diamond", "size": 24,}
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Aitos",
+    "access_rules": ["@Aitos Mountain, Lightning, Wind"],
+    "children": [
+      {
+        "name": "Skull",
+        "sections":[
+          {"name": "Bomb", "item_count": 1}
+        ],
+        "map_locations":[
+          {"map": "AitosSim", "x": 160, "y": 275}
+        ]
+      },
+      {
+        "name": "Dragon Right",
+        "sections":[
+          {"name": "Strength Of Angel", "item_count": 1}
+        ],
+        "map_locations":[
+          {"map": "AitosSim", "x": 416, "y": 147}
+        ]
+      },
+      {
+        "name": "Dragon Bottom",
+        "sections":[
+          {"name": "Advancement 1", "item_count": 1},
+          {"name": "Advancement 2", "item_count": 1}
+        ],
+        "map_locations":[
+          {"map": "AitosSim", "x": 96, "y": 403},
+          {"map": "AitosSim", "x": 96, "y": 403}
+        ]
+      },
+      {
+        "name": "Dragon Top",
+        "sections":[
+          {"name": "Advancement 1", "item_count": 1},
+          {"name": "Advancement 2", "item_count": 1}
+        ],
+        "map_locations":[
+          {"map": "AitosSim", "x": 96, "y": 84},
+          {"map": "AitosSim", "x": 96, "y": 84}
+        ]
+      },
+      {
+        "name": "Moutaineer",
+        "sections":[
+          {"name": "Source Of Magic", "item_count": 1}
+        ],
+        "map_locations":[
+          {"map": "AitosSim", "x": 425, "y": 90}
+        ]
+      },
+      {
+        "name": "Temple",
+        "sections": [
+          {"name": "Fleece", "item_count": 1},
+          {"name": "64 Population", "item_count": 1},
+          {"name": "128 Population", "item_count": 1},
+          {"name": "256 Population","item_count": 1},
+          {
+            "access_rules": ["ATAdvancement"],
+            "name": "512 Population",
+            "item_count": 1
+          },
+          {
+            "access_rules": ["ATAdvancement2"],
+            "name": "Max Population",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {"map": "AitosSim", "x": 287, "y": 352},
+          {"map": "AitosSim", "x": 287, "y": 352},
+          {"map": "AitosSim", "x": 287, "y": 352},
+          {"map": "AitosSim", "x": 287, "y": 352},
+          {"map": "AitosSim", "x": 287, "y": 352},
+          {"map": "AitosSim", "x": 287, "y": 352}
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Aitos Volcano",
+    "access_rules": ["@Aitos"],
+    "children": [
+      {
+        "name": "Volcano",
+        "sections": [
+          {"name": "Dragon Mouths", "item_count": 1},
+          {"name": "Near Flame Wheel", "item_count": 1},
+          {"name": "Fire Wheel", "item_count": 1}
+        ],
+        "map_locations": [
+          {"map": "AitosSim", "x": 143, "y": 160, "shape": "diamond", "size": 24,},
+          {"map": "AitosSim", "x": 143, "y": 160, "shape": "diamond", "size": 24,},
+          {"map": "AitosSim", "x": 143, "y": 160, "shape": "diamond", "size": 24,}
+        ]
+      }
+    ]
+  }
+]

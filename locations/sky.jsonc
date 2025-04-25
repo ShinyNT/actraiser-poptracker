@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Sky",
+        "children": [
+            {
+                "name":"Sky Temple",
+                "sections": [
+                    {"access_rules":["Lightning", "Level"],
+                    "name": "Level 3", "item_count": 1},
+                    {"access_rules":["Lightning, Level"],
+                    "name": "Level 4", "item_count": 1},
+                    {"access_rules":["Lightning, Bridge, Level"],
+                    "name": "Level 5", "item_count": 1},
+                    {"access_rules":["Lightning, Bridge, Level:3"],
+                    "name": "Level 6", "item_count": 1},
+                    {"access_rules":["Lightning, Bridge, Level:3"],
+                    "name": "Level 7", "item_count": 1},
+                    {"access_rules":["Lightning, Wind, Rain, Sun, Wheat, Herb, Bridge, Music, Skull, Fleece, Level:5"],
+                    "name": "Level 8", "item_count": 1},
+                    {"access_rules":["Lightning, Wind, Rain, Sun, Wheat, Herb, Bridge, Music, Skull, Fleece, Level:5"],
+                    "name": "Level 9", "item_count": 1},
+                    {"access_rules":["Lightning, Wind, Rain, Sun, Wheat, Herb, Bridge, Music, Skull, Fleece, Level:7"],
+                    "name": "Level 10", "item_count": 1},
+                    {"access_rules":["Lightning, Wind, Rain, Sun, Wheat, Herb, Bridge, Music, Skull, Fleece, Level:7"],
+                    "name": "Level 11", "item_count": 1},
+                    {"access_rules":["Lightning, Wind, Rain, Sun, Wheat, Herb, Bridge, Music, Skull, Fleece, Level:9"],
+                    "name": "Level 12", "item_count": 1},
+                    {"access_rules":["Lightning, Wind, Rain, Sun, Wheat, Herb, Bridge, Music, Skull, Fleece, Level:9"],
+                    "name": "Level 13", "item_count": 1},
+                    {"access_rules":["Lightning, Wind, Rain, Sun, Wheat, Herb, Bridge, Music, Skull, Fleece, Earthquake, FMAdvancement2, BPAdvancement2, KDAdvancement2, ATAdvancement2, MHAdvancement2, NWAdvancement2, Level:9"],
+                    "name": "Level 14", "item_count": 1},
+                    {"access_rules":["Lightning, Wind, Rain, Sun, Wheat, Herb, Bridge, Music, Skull, Fleece, Earthquake, FMAdvancement2, BPAdvancement2, KDAdvancement2, ATAdvancement2, MHAdvancement2, NWAdvancement2, Level:9"],
+                    "name": "Level 15", "item_count": 1},
+                    {"access_rules":["Lightning, Wind, Rain, Sun, Wheat, Herb, Bridge, Music, Skull, Fleece, Earthquake, FMAdvancement2, BPAdvancement2, KDAdvancement2, ATAdvancement2, MHAdvancement2, NWAdvancement2, Level:9"],
+                    "name": "Level 16", "item_count": 1},
+                    {"access_rules":["Lightning, Wind, Rain, Sun, Wheat, Herb, Bridge, Music, Skull, Fleece, Earthquake, FMAdvancement2, BPAdvancement2, KDAdvancement2, ATAdvancement2, MHAdvancement2, NWAdvancement2, Level:9"],
+                    "name": "Level 17", "item_count": 1}
+                ],
+                "map_locations":[{"map": "Sky", "x": 127, "y": 140, "size": 18,},
+                                 {"map": "Sky", "x": 127, "y": 140, "size": 18,},
+                                 {"map": "Sky", "x": 127, "y": 140, "size": 18,},
+                                 {"map": "Sky", "x": 127, "y": 140, "size": 18,},
+                                 {"map": "Sky", "x": 127, "y": 140, "size": 18,},
+                                 {"map": "Sky", "x": 127, "y": 140, "size": 18,},
+                                 {"map": "Sky", "x": 127, "y": 140, "size": 18,},
+                                 {"map": "Sky", "x": 127, "y": 140, "size": 18,},
+                                 {"map": "Sky", "x": 127, "y": 140, "size": 18,},
+                                 {"map": "Sky", "x": 127, "y": 140, "size": 18,},
+                                 {"map": "Sky", "x": 127, "y": 140, "size": 18,},
+                                 {"map": "Sky", "x": 127, "y": 140, "size": 18,},
+                                 {"map": "Sky", "x": 127, "y": 140, "size": 18,},
+                                 {"map": "Sky", "x": 127, "y": 140, "size": 18,},
+                                 {"map": "Sky", "x": 127, "y": 140, "size": 18,},
+                                 {"map": "Sky", "x": 127, "y": 140, "size": 18,}]
+            }
+        ]
+    }
+]

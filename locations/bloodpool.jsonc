@@ -1,0 +1,129 @@
+[{
+    "name": "Bloodpool Bridge",
+    "access_rules": ["Level:1"],
+    "children": [
+      {
+        "name": "Bridge",
+        "sections": [
+          {"name": "Platform Near Entrance", "item_count": 1},
+          {"name": "Center Bridge", "item_count": 1},
+          {"name": "Falling Bridge", "item_count": 1},
+          {"name": "Platform Near Manitcore", "item_count": 1},
+          {"name": "Manticore", "item_count": 1}
+        ],
+        "map_locations": [
+          {"map": "BloodpoolSim", "x": 430, "y": 150, "shape": "diamond", "size": 24,},
+          {"map": "BloodpoolSim", "x": 430, "y": 150, "shape": "diamond", "size": 24,},
+          {"map": "BloodpoolSim", "x": 430, "y": 150, "shape": "diamond", "size": 24,},
+          {"map": "BloodpoolSim", "x": 430, "y": 150, "shape": "diamond", "size": 24,},
+          {"map": "BloodpoolSim", "x": 430, "y": 150, "shape": "diamond", "size": 24,}
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bloodpool",
+    "access_rules": ["@Bloodpool Bridge, Bread"],
+    "children": [
+      {
+        "name": "Bat",
+        "access_rules": ["Lightning"],
+        "sections": [ 
+            {"name": "Advancement 1", "item_count": 1},
+            { "access_rules": ["Sun, Bridge, Bread"],
+                "name": "Advancement 2", "item_count": 1}
+         ],
+        "map_locations": [  {"map": "BloodpoolSim", "x": 32, "y": 84},
+                            {"map": "BloodpoolSim", "x": 32, "y": 84}  ]
+      },
+      {
+        "name": "Dragon Right",
+        "access_rules": ["Sun, Bridge, Bread"],
+        "sections": [ {"name": "Advancement 1", "item_count": 1},
+        {   "access_rules": ["Lightning", "Sun, Bridge"],
+            "name": "Advancement 2", "item_count": 1}],
+        "map_locations": [ {"map": "BloodpoolSim", "x": 480, "y": 275},
+                           {"map": "BloodpoolSim", "x": 480, "y": 275} ]
+      },
+      {
+        "name": "Dragon Bottom",
+        "access_rules": ["Sun, Bridge, Bread"],
+        "sections": [ {"name": "Bomb", "item_count": 1}],
+        "map_locations": [ {"map": "BloodpoolSim", "x": 288, "y": 467} ]
+      },
+      {
+        "name": "Demon",
+        "access_rules": ["Lightning, Skull"],
+        "sections": [ {"name": "Stardust", "item_count": 1}],
+        "map_locations": [ {"map": "BloodpoolSim", "x": 96, "y": 402} ]
+      },
+      {
+        "name": "Lake",
+        "access_rules": ["Rain"],
+        "sections": [ {"name": "Source Of Life", "item_count": 1}],
+        "map_locations": [ {"map": "BloodpoolSim", "x": 90, "y": 175} ]
+      },
+      {
+        "name": "Teddy",
+        "access_rules": ["Bread, Bridge, Sun"],
+        "sections": [ {"name": "Magic Skull", "item_count": 1}],
+        "map_locations": [ {"map": "BloodpoolSim", "x": 165, "y": 300} ]
+      },
+      {
+        "name": "Temple",
+        "sections": [ 
+          {"name": "64 Population", "item_count": 1},
+          {"name": "128 Population", "item_count": 1},
+          {"name": "256 Population", "item_count": 1,
+          "access_rules": ["Bread, Bridge, Sun,"] },
+          {"name": "512 Population", "item_count": 1,
+            "access_rules": ["Music, Bread, Lightning, Bridge, Sun, Skull, BPAdvancement"]},
+          {"name": "Max Population", "item_count": 1,
+            "access_rules": ["Music, Bread, Lightning, Bridge, Sun, Skull, Wheat, BPAdvancement2"]},
+          { "name": "Bread", "item_count": 1,
+            "access_rules": ["Lightning, Bridge, Sun"]},
+          { "name": "Wheat", "item_count": 1,
+            "access_rules": ["Lightning"]},
+          {"name": "Compass", "item_count": 1,
+        "access_rules": ["Music, Bread, Lightning, Bridge, Sun, Skull"]}
+
+      ],
+        "map_locations": [
+          {"map": "BloodpoolSim", "x": 351, "y": 159},
+          {"map": "BloodpoolSim", "x": 351, "y": 159},
+          {"map": "BloodpoolSim", "x": 351, "y": 159},
+          {"map": "BloodpoolSim", "x": 351, "y": 159},
+          {"map": "BloodpoolSim", "x": 351, "y": 159},
+          {"map": "BloodpoolSim", "x": 351, "y": 159},
+          {"map": "BloodpoolSim", "x": 351, "y": 159},
+          {"map": "BloodpoolSim", "x": 351, "y": 159}
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bloodpool Castle",
+    "access_rules": ["@Bloodpool, Lightning, Bridge, Bread, Sun, Skull"],
+    "children": [
+      {
+        "name": "Castle",
+        "sections": [
+          {"name": "Left Elevator", "item_count": 1},
+          {"name": "Dark Room", "item_count": 1},
+          {"name": "Moat", "item_count": 1},
+          {"name": "Right Elevator", "item_count": 1},
+          {"name": "Stone Ledges", "item_count": 1},
+          {"name": "Zeppelin Wolf", "item_count": 1}
+        ],
+        "map_locations": [
+          {"map": "BloodpoolSim", "x": 112, "y": 274, "shape": "diamond", "size": 24,},
+          {"map": "BloodpoolSim", "x": 112, "y": 274, "shape": "diamond", "size": 24,},
+          {"map": "BloodpoolSim", "x": 112, "y": 274, "shape": "diamond", "size": 24,},
+          {"map": "BloodpoolSim", "x": 112, "y": 274, "shape": "diamond", "size": 24,},
+          {"map": "BloodpoolSim", "x": 112, "y": 274, "shape": "diamond", "size": 24,},
+          {"map": "BloodpoolSim", "x": 112, "y": 274, "shape": "diamond", "size": 24,}
+        ]
+      }
+    ]
+  }
+]
