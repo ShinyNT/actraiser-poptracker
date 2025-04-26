@@ -4,7 +4,7 @@
     "access_rules": ["Level:5"],
     "children": [
       {
-        "name": "Mountain",
+        "name": "Act 1 - Mountain",
         "sections": [
           {"name": "Between Lava Pits", "item_count": 1},
           {"name": "Pass to Crater", "item_count": 1},
@@ -27,7 +27,7 @@
   },
   {
     "name": "Aitos",
-    "access_rules": ["@Aitos Mountain, Lightning, Wind"],
+    "access_rules": ["@Act 1 - Mountain, Lightning, [Wind]"],
     "children": [
       {
         "name": "Skull",
@@ -70,7 +70,7 @@
         ]
       },
       {
-        "name": "Moutaineer",
+        "name": "Mountaineer",
         "sections":[
           {"name": "Source Of Magic", "item_count": 1}
         ],
@@ -112,7 +112,7 @@
     "access_rules": ["@Aitos"],
     "children": [
       {
-        "name": "Volcano",
+        "name": "Act 2 - Volcano",
         "sections": [
           {"name": "Dragon Mouths", "item_count": 1},
           {"name": "Near Flame Wheel", "item_count": 1},

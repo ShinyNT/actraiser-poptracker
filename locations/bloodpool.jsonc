@@ -3,7 +3,7 @@
     "access_rules": ["Level:1"],
     "children": [
       {
-        "name": "Bridge",
+        "name": "Act 1 - Bridge",
         "sections": [
           {"name": "Platform Near Entrance", "item_count": 1},
           {"name": "Center Bridge", "item_count": 1},
@@ -106,7 +106,7 @@
     "access_rules": ["@Bloodpool, Lightning, Bridge, Bread, Sun, Skull"],
     "children": [
       {
-        "name": "Castle",
+        "name": "Act 2 - Castle",
         "sections": [
           {"name": "Left Elevator", "item_count": 1},
           {"name": "Dark Room", "item_count": 1},

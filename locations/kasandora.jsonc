@@ -4,7 +4,7 @@
     "access_rules": ["Level:3"],
     "children": [
       {
-        "name": "Desert",
+        "name": "Act 1 - Desert",
         "sections": [
           {"name": "Rock Spires", "item_count": 1},
           {"name": "Top Of Left Tower", "item_count": 1},
@@ -131,7 +131,7 @@
     "access_rules": ["@Kasandora"],
     "children": [
       {
-        "name": "Pyramid",
+        "name": "Act 2 - Pyramid",
         "sections": [
           {"name": "Statue Room Center Platform", "item_count": 1},
           {"name": "Statue Room High Ledge", "item_count": 1},

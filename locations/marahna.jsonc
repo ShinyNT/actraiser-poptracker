@@ -4,7 +4,7 @@
     "access_rules": ["Level:7"],
     "children": [
       {
-        "name": "Swamp",
+        "name": "Act 1 - Swamp",
         "sections": [
           {"name": "Ruins Left", "item_count": 1},
           {"name": "Ruins Right", "item_count": 1},
@@ -116,7 +116,7 @@
     "access_rules": ["@Marahna, Earthquake, Sun"],
     "children": [
       {
-        "name": "Cult Temple",
+        "name": "Act 2 - Cult Temple",
         "sections": [
           {"name": "Falling Platforms", "item_count": 1},
           {"name": "Left Path Ledge", "item_count": 1},

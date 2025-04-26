@@ -4,7 +4,7 @@
     "access_rules": ["Level:9"],
     "children": [
       {
-        "name": "Cave",
+        "name": "Act 1 - Cave",
         "sections": [
           {"name": "Outside Between Spikes", "item_count": 1},
           {"name": "Right Cliff Near Cave Entrance", "item_count": 1},
@@ -40,19 +40,19 @@
     "children":[
         {
             "name": "Skull Mountains",
-			"access_rules":["Fleece"],
+			"access_rules":["[Fleece]"],
             "sections": [{"name": "Strength Of Angel", "item_count": 1}],
             "map_locations":[{"map": "NorthwallSim", "x": 288, "y": 211}]
         },
         {
             "name": "Demon",
-            "access_rules":["Fleece"],
+            "access_rules":["[Fleece]"],
             "sections": [{"name": "Bomb", "item_count": 1}],
             "map_locations":[{"map": "NorthwallSim", "x": 96, "y": 147}]
         },
         {
             "name": "Dragon",
-            "access_rules":["Fleece"],
+            "access_rules":["[Fleece]"],
             "sections": [{"name": "Advancement 1", "item_count": 1},
                          {"name": "Advancement 2", "item_count": 1}],
             "map_locations":[{"map": "NorthwallSim", "x": 288, "y": 404},
@@ -60,7 +60,7 @@
         },
         {
             "name": "Skull Tree",
-            "access_rules":["Fleece"],
+            "access_rules":["[Fleece]"],
             "sections": [{"name": "Advancement 1", "item_count": 1},
                          {"name": "Advancement 2", "item_count": 1}],
             "map_locations":[{"map": "NorthwallSim", "x": 416, "y": 275},
@@ -68,36 +68,36 @@
         },
         {
             "name": "River",
-            "access_rules":["Fleece"],
+            "access_rules":["[Fleece]"],
             "sections": [{"name": "Source of Magic", "item_count": 1}],
             "map_locations":[{"map": "NorthwallSim", "x": 200, "y": 410}]
         },
         {
             "name": "Lake",
-            "access_rules":["Fleece"],
+            "access_rules":["[Fleece]"],
             "sections": [{"name": "Magical Light", "item_count": 1}],
             "map_locations":[{"map": "NorthwallSim", "x": 380, "y": 185}]
         },
         {
             "name": "Temple",
             "sections": [
-              {"access_rules":["Lightning, Fleece"],
+              {"access_rules":["Lightning, [Fleece]"],
                 "name": "Source of Life", "item_count": 1},
-                {"access_rules":["Fleece"],
+                {"access_rules":["[Fleece]"],
                 "name": "Warm Clothes","item_count": 1},
-              {"access_rules":["Fleece"],
+              {"access_rules":["[Fleece]"],
                 "name": "64 Population", "item_count": 1},
-              {"access_rules":["Fleece"],
+              {"access_rules":["[Fleece]"],
                 "name": "128 Population", "item_count": 1},
-              {"access_rules":["Fleece"],
+              {"access_rules":["[Fleece]"],
               "name": "256 Population","item_count": 1},
               {
-                "access_rules": ["NWAdvancement, Fleece"],
+                "access_rules": ["NWAdvancement, [Fleece]"],
                 "name": "512 Population",
                 "item_count": 1
               },
               {
-                "access_rules": ["NWAdvancement2, Fleece, Wheat"],
+                "access_rules": ["NWAdvancement2, [Fleece], Wheat"],
                 "name": "Max Population",
                 "item_count": 1
               }
@@ -116,10 +116,10 @@
     },
     {
         "name": "Northwall Tree",
-        "access_rules": ["@Northwall, Fleece"],
+        "access_rules": ["@Northwall, [Fleece]"],
         "children": [
           {
-            "name": "Tree",
+            "name": "Act 2 - Tree",
             "sections": [
               {"name": "Trunk Neighboring Tree", "item_count": 1},
               {"name": "Trunk Left Side", "item_count": 1},

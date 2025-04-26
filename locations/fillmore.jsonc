@@ -3,7 +3,7 @@
         "name": "Fillmore Forest",
         "children": [
           {
-            "name": "Forest",
+            "name": "Act 1 - Forest",
             "sections": [
               {"name": "Tree Near Entrance", "item_count": 1},
               {"name": "Tree From Ropeway", "item_count": 1},
@@ -133,7 +133,7 @@
         "access_rules": ["Lightning"],
         "children": [
           {
-            "name": "Chasm",
+            "name": "Act 2 - Chasm",
             "sections": [
               {"name": "Lower Right Of Waterfall", "item_count": 1},
               {"name": "Bone Pile", "item_count": 1},
