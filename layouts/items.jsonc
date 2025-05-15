@@ -1,7 +1,7 @@
 {
   // sets layouts for shadred items grids
   // bigger example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/layouts/items.json
-  "shared_item_grid": {
+  "sim_items": {
     "type": "array",
     "orientation": "vertical",
     "margin": "0,0",
@@ -14,19 +14,8 @@
           {
             "type": "itemgrid",
             "item_margin": "4, 4",
-            "h_alignment": "left",
+            "h_alignment": "center",
             "rows": [
-              [
-                "Bread",
-                "Wheat",
-                "Herb",
-                "Bridge",
-                "Music",
-                "Tablet",
-                "Skull",
-                "Fleece",
-                "Compass"
-              ],
               [
                 "Lightning",
                 "Rain",
@@ -35,18 +24,18 @@
                 "Earthquake"
               ],
               [
-                "Level",
-                "SourceLife",
-                "SourceMagic",
-                "Sword",
-                "Arrow",
-                "Crystal"
-              ],
-              [
-                "Fire",
-                "Stardust",
-                "Aura",
-                "Light"
+                "Bread",
+                "Wheat",
+                "Herb",
+                "Bridge",
+                "Music"
+			  ],
+			  [
+                "Tablet",
+                "Skull",
+                "Fleece",
+                "Compass",
+				"Arrow"
               ],
               [
                 "FMAdvancement",
@@ -55,6 +44,40 @@
                 "ATAdvancement",
                 "MHAdvancement",
                 "NWAdvancement"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "act_items": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "4, 4",
+            "h_alignment": "center",
+            "rows": [
+			  [
+                "Level",
+                "SourceLife",
+                "SourceMagic",
+                "Sword",
+                "Crystal"
+              ],
+			  [
+                "Fire",
+                "Stardust",
+                "Aura",
+                "Light"
               ]
             ]
           }

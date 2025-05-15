@@ -12,8 +12,12 @@
         "content": [
           {
             "type": "layout",
-            "key": "shared_item_grid"
-          }
+            "key": "sim_items"
+          },
+		  {
+            "type": "layout",
+            "key": "act_items"
+          },
         ]
       }
     ]
