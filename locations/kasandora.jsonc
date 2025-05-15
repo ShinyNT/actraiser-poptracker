@@ -104,7 +104,7 @@
           {"name": "128 Population", "item_count": 1},
           {"name": "256 Population","item_count": 1},
           {
-            "access_rules": ["Herb, KDAdvancement"],
+            "access_rules": ["Herb, KDAdvancement", "[Herb], KDAdvancement2"],
             "name": "512 Population",
             "item_count": 1
           },
