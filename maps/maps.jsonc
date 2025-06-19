@@ -41,5 +41,77 @@
     "location_size": 8,
     "location_border_thickness": 1,
     "img": "images/maps/Sky.png"
+  },
+   {
+    "name": "FMAct1",
+    "location_size": 8,
+    "location_border_thickness": 2,
+    "img": "images/maps/act/FM1.png"
+  },
+   {
+    "name": "FMAct2",
+    "location_size": 8,
+    "location_border_thickness": 1,
+    "img": "images/maps/act/FM2.png"
+  },
+   {
+    "name": "BPAct1",
+    "location_size": 8,
+    "location_border_thickness": 1,
+    "img": "images/maps/act/BP1.png"
+  },
+   {
+    "name": "BPAct2",
+    "location_size": 8,
+    "location_border_thickness": 1,
+    "img": "images/maps/act/BP2.png"
+  },
+   {
+    "name": "KDAct1",
+    "location_size": 8,
+    "location_border_thickness": 1,
+    "img": "images/maps/act/KD1.png"
+  },
+   {
+    "name": "KDAct2",
+    "location_size": 8,
+    "location_border_thickness": 1,
+    "img": "images/maps/act/KD2.png"
+  },
+   {
+    "name": "ATAct1",
+    "location_size": 8,
+    "location_border_thickness": 1,
+    "img": "images/maps/act/AT1.png"
+  },
+   {
+    "name": "ATAct2",
+    "location_size": 8,
+    "location_border_thickness": 1,
+    "img": "images/maps/act/AT2.png"
+  },
+   {
+    "name": "MHAct1",
+    "location_size": 8,
+    "location_border_thickness": 1,
+    "img": "images/maps/act/MH1.png"
+  },
+   {
+    "name": "MHAct2",
+    "location_size": 8,
+    "location_border_thickness": 1,
+    "img": "images/maps/act/MH2.png"
+  },
+   {
+    "name": "NWAct1",
+    "location_size": 8,
+    "location_border_thickness": 1,
+    "img": "images/maps/act/NW1.png"
+  },
+   {
+    "name": "NWAct2",
+    "location_size": 8,
+    "location_border_thickness": 1,
+    "img": "images/maps/act/NW2.png"
   }
 ]
