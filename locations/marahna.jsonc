@@ -1,7 +1,7 @@
 [
   {
     "name": "Marahna Swamp",
-    "access_rules": ["Level:7"],
+    "access_rules": ["Level:8"],
     "children": [
       {
         "name": "Act 1 - Swamp",
@@ -13,10 +13,6 @@
           {"name": "Rafflasher", "item_count": 1}
         ],
         "map_locations": [
-          {"map": "MarahnaSim", "x": 205, "y": 295, "shape": "diamond", "size": 24,},
-          {"map": "MarahnaSim", "x": 205, "y": 295, "shape": "diamond", "size": 24,},
-          {"map": "MarahnaSim", "x": 205, "y": 295, "shape": "diamond", "size": 24,},
-          {"map": "MarahnaSim", "x": 205, "y": 295, "shape": "diamond", "size": 24,},
           {"map": "MarahnaSim", "x": 205, "y": 295, "shape": "diamond", "size": 24,}
         ]
       }
@@ -54,7 +50,6 @@
             "name": "Advancement 2", "item_count": 1}
         ],
         "map_locations": [
-          {"map": "MarahnaSim", "x": 96, "y": 82},
           {"map": "MarahnaSim", "x": 96, "y": 82}
         ]
       },
@@ -67,7 +62,6 @@
             "name": "Advancement 2", "item_count": 1}
         ],
         "map_locations": [
-          {"map": "MarahnaSim", "x": 32, "y": 403},
           {"map": "MarahnaSim", "x": 32, "y": 403}
         ]
       },
@@ -81,7 +75,6 @@
             "name": "Source Of Magic", "item_count": 1}
         ],
         "map_locations": [
-          {"map": "MarahnaSim", "x": 445, "y": 90},
           {"map": "MarahnaSim", "x": 445, "y": 90}
         ]
       },
@@ -101,11 +94,6 @@
           }
         ],
         "map_locations": [
-          {"map": "MarahnaSim", "x": 287, "y": 288},
-          {"map": "MarahnaSim", "x": 287, "y": 288},
-          {"map": "MarahnaSim", "x": 287, "y": 288},
-          {"map": "MarahnaSim", "x": 287, "y": 288},
-          {"map": "MarahnaSim", "x": 287, "y": 288},
           {"map": "MarahnaSim", "x": 287, "y": 288}
         ]
       }
@@ -125,10 +113,6 @@
           {"name": "Kalia", "item_count": 1}
         ],
         "map_locations": [
-          {"map": "MarahnaSim", "x": 112, "y": 337, "shape": "diamond", "size": 24,},
-          {"map": "MarahnaSim", "x": 112, "y": 337, "shape": "diamond", "size": 24,},
-          {"map": "MarahnaSim", "x": 112, "y": 337, "shape": "diamond", "size": 24,},
-		  {"map": "MarahnaSim", "x": 112, "y": 337, "shape": "diamond", "size": 24,},
           {"map": "MarahnaSim", "x": 112, "y": 337, "shape": "diamond", "size": 24,}
         ]
       }

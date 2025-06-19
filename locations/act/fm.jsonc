@@ -1,0 +1,133 @@
+[
+	{
+		"name": "Fillmore Forest",
+        "children": [
+			{
+            "sections": [
+				{"ref": "Fillmore Forest/Act 1 - Forest/Tree Near Entrance", "name": "Tree Near Entrance","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "FMAct1", "x": 700, "y": 550, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Fillmore Forest/Act 1 - Forest/Tree From Ropeway", "name": "Tree From Ropeway","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "FMAct1", "x": 1420, "y": 405, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Fillmore Forest/Act 1 - Forest/Top and Center", "name": "Top and Center","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "FMAct1", "x": 2400, "y": 260, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Fillmore Forest/Act 1 - Forest/Spiky Plants", "name": "Spiky Plants","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "FMAct1", "x": 2705, "y": 550, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Fillmore Forest/Act 1 - Forest/Tree Near Centaur", "name": "Tree Near Centaur","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "FMAct1", "x": 3295, "y": 390, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Fillmore Forest/Act 1 - Forest/Centaur", "name": "Centaur","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "FMAct1", "x": 3960, "y": 650, "size": 35}
+            ]
+			}
+        ]
+    },
+    {
+        "name": "Fillmore Chasm",
+        "access_rules": ["Lightning"],
+        "children": [
+			{
+            "sections": [
+				{"ref": "Fillmore Chasm/Act 2 - Chasm/Lower Right Of Waterfall", "name": "Lower Right Of Waterfall","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "FMAct2", "x": 850, "y": 1705, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Fillmore Chasm/Act 2 - Chasm/Bone Pile", "name": "Bone Pile","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "FMAct2", "x": 960, "y": 2050, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Fillmore Chasm/Act 2 - Chasm/Left Of Column", "name": "Left Of Column","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "FMAct2", "x": 1480, "y": 1840, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Fillmore Chasm/Act 2 - Chasm/Right Of Column", "name": "Right Of Column","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "FMAct2", "x": 1840, "y": 1840, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Fillmore Chasm/Act 2 - Chasm/Left Of Waterfall", "name": "Left Of Waterfall","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "FMAct2", "x": 670, "y": 1365, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Fillmore Chasm/Act 2 - Chasm/Tunnel", "name": "Tunnel","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "FMAct2", "x": 1260, "y": 1350, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Fillmore Chasm/Act 2 - Chasm/S-Shaped Tunnel", "name": "S-Shaped Tunnel","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "FMAct2", "x": 1950, "y": 1240, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Fillmore Chasm/Act 2 - Chasm/Falling Spikes", "name": "Falling Spikes","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "FMAct2", "x": 2335, "y": 165, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Fillmore Chasm/Act 2 - Chasm/Minotaurus", "name": "Minotaurus","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "FMAct2", "x": 1350, "y": 220, "size": 35}
+            ]
+			}
+        ]
+    }
+]

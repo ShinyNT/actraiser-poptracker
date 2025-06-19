@@ -1,0 +1,102 @@
+[
+	{
+		"name": "Kasandora Desert",
+		"access_rules": ["Level:4"],
+        "children": [
+			{
+            "sections": [
+				{"ref": "Kasandora Desert/Act 1 - Desert/Rock Spires", "name": "Rock Spires","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "KDAct1", "x": 2930, "y": 585, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Kasandora Desert/Act 1 - Desert/Top Of Left Tower", "name": "Top Of Left Tower","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "KDAct1", "x": 5055, "y": 100, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Kasandora Desert/Act 1 - Desert/Top Of Right Tower", "name": "Top Of Right Tower","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "KDAct1", "x": 5555, "y": 120, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Kasandora Desert/Act 1 - Desert/Below Towers", "name": "Below Towers","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "KDAct1", "x": 5295, "y": 630, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Kasandora Desert/Act 1 - Desert/Rocks Near Dagoba", "name": "Rocks Near Dagoba","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "KDAct1", "x": 6430, "y": 500, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Kasandora Desert/Act 1 - Desert/Dagoba", "name": "Dagoba","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "KDAct1", "x": 6750, "y": 660, "size": 35}
+            ]
+			}
+        ]
+    },
+	{
+		"name": "Kasandora Pyramid",
+		"access_rules": ["@Kasandora"],
+        "children": [
+			{
+            "sections": [
+				{"ref": "Kasandora Pyramid/Act 2 - Pyramid/Statue Room Center Platform", "name": "Statue Room Center Platform","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "KDAct2", "x": 1100, "y": 2135, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Kasandora Pyramid/Act 2 - Pyramid/Statue Room High Ledge", "name": "Statue Room High Ledge","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "KDAct2", "x": 795, "y": 1880, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Kasandora Pyramid/Act 2 - Pyramid/Ledge With Scorman", "name": "Ledge With Scorman","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "KDAct2", "x": 620, "y": 1880, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Kasandora Pyramid/Act 2 - Pyramid/Red Bird God", "name": "Red Bird God","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "KDAct2", "x": 1200, "y": 290, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Kasandora Pyramid/Act 2 - Pyramid/Pharaoh", "name": "Pharaoh","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "KDAct2", "x": 335, "y": 340, "size": 35}
+            ]
+			}
+		]
+    }
+]

@@ -1,6 +1,6 @@
 [{
     "name": "Bloodpool Bridge",
-    "access_rules": ["Level:1"],
+    "access_rules": ["Level:2"],
     "children": [
       {
         "name": "Act 1 - Bridge",
@@ -12,10 +12,6 @@
           {"name": "Manticore", "item_count": 1}
         ],
         "map_locations": [
-          {"map": "BloodpoolSim", "x": 430, "y": 150, "shape": "diamond", "size": 24,},
-          {"map": "BloodpoolSim", "x": 430, "y": 150, "shape": "diamond", "size": 24,},
-          {"map": "BloodpoolSim", "x": 430, "y": 150, "shape": "diamond", "size": 24,},
-          {"map": "BloodpoolSim", "x": 430, "y": 150, "shape": "diamond", "size": 24,},
           {"map": "BloodpoolSim", "x": 430, "y": 150, "shape": "diamond", "size": 24,}
         ]
       }
@@ -33,8 +29,7 @@
             { "access_rules": ["Sun, Bridge, Bread"],
                 "name": "Advancement 2", "item_count": 1}
          ],
-        "map_locations": [  {"map": "BloodpoolSim", "x": 32, "y": 84},
-                            {"map": "BloodpoolSim", "x": 32, "y": 84}  ]
+        "map_locations": [  {"map": "BloodpoolSim", "x": 32, "y": 84} ]
       },
       {
         "name": "Dragon Right",
@@ -42,8 +37,7 @@
         "sections": [ {"name": "Advancement 1", "item_count": 1},
         {   "access_rules": ["Lightning", "Sun, Bridge"],
             "name": "Advancement 2", "item_count": 1}],
-        "map_locations": [ {"map": "BloodpoolSim", "x": 480, "y": 275},
-                           {"map": "BloodpoolSim", "x": 480, "y": 275} ]
+        "map_locations": [ {"map": "BloodpoolSim", "x": 480, "y": 275}]
       },
       {
         "name": "Dragon Bottom",
@@ -89,13 +83,6 @@
 
       ],
         "map_locations": [
-          {"map": "BloodpoolSim", "x": 351, "y": 159},
-          {"map": "BloodpoolSim", "x": 351, "y": 159},
-          {"map": "BloodpoolSim", "x": 351, "y": 159},
-          {"map": "BloodpoolSim", "x": 351, "y": 159},
-          {"map": "BloodpoolSim", "x": 351, "y": 159},
-          {"map": "BloodpoolSim", "x": 351, "y": 159},
-          {"map": "BloodpoolSim", "x": 351, "y": 159},
           {"map": "BloodpoolSim", "x": 351, "y": 159}
         ]
       }
@@ -116,11 +103,6 @@
           {"name": "Zeppelin Wolf", "item_count": 1}
         ],
         "map_locations": [
-          {"map": "BloodpoolSim", "x": 112, "y": 274, "shape": "diamond", "size": 24,},
-          {"map": "BloodpoolSim", "x": 112, "y": 274, "shape": "diamond", "size": 24,},
-          {"map": "BloodpoolSim", "x": 112, "y": 274, "shape": "diamond", "size": 24,},
-          {"map": "BloodpoolSim", "x": 112, "y": 274, "shape": "diamond", "size": 24,},
-          {"map": "BloodpoolSim", "x": 112, "y": 274, "shape": "diamond", "size": 24,},
           {"map": "BloodpoolSim", "x": 112, "y": 274, "shape": "diamond", "size": 24,}
         ]
       }
