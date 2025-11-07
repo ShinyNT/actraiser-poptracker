@@ -1,0 +1,94 @@
+[
+	{
+		"name": "Aitos Mountain",
+		"access_rules": ["Level:6"],
+        "children": [
+			{
+            "sections": [
+				{"ref": "Aitos Mountain/Act 1 - Mountain/Between Lava Pits", "name": "Between Lava Pits","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "ATAct1", "x": 2065, "y": 935, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Aitos Mountain/Act 1 - Mountain/Pass to Crater", "name": "Pass to Crater","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "ATAct1", "x": 3407, "y": 665, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Aitos Mountain/Act 1 - Mountain/Bottom Of Crater", "name": "Bottom Of Crater","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "ATAct1", "x": 3570, "y": 890, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Aitos Mountain/Act 1 - Mountain/Waterfall Left", "name": "Waterfall Left","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "ATAct1", "x": 4940, "y": 840, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Aitos Mountain/Act 1 - Mountain/Waterfall Center", "name": "Waterfall Center","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "ATAct1", "x": 5200, "y": 820, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Aitos Mountain/Act 1 - Mountain/Waterfall Right", "name": "Waterfall Right","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "ATAct1", "x": 5600, "y": 800, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Aitos Mountain/Act 1 - Mountain/Serpent", "name": "Serpent","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "ATAct1", "x": 6060, "y": 910, "size": 35}
+            ]
+			}
+        ]
+    },
+    {
+		"name": "Aitos Volcano",
+		"access_rules": ["@Aitos"],
+        "children": [
+			{
+            "sections": [
+				{"ref": "Aitos Volcano/Act 2 - Volcano/Dragon Mouths", "name": "Dragon Mouths","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "ATAct2", "x": 2575, "y": 740, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Aitos Volcano/Act 2 - Volcano/Near Flame Wheel", "name": "Near Flame Wheel","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "ATAct2", "x": 2640, "y": 1160, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Aitos Volcano/Act 2 - Volcano/Fire Wheel", "name": "Fire Wheel","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "ATAct2", "x": 2063, "y": 1328, "size": 35}
+            ]
+			}
+        ]
+    }
+]

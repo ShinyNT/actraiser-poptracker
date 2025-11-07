@@ -1,7 +1,7 @@
 [
   {
     "name": "Northwall Cave",
-    "access_rules": ["Level:9"],
+    "access_rules": ["Level:10"],
     "children": [
       {
         "name": "Act 1 - Cave",
@@ -19,16 +19,6 @@
           {"name": "Merman Fly", "item_count": 1}
         ],
         "map_locations": [
-          {"map": "NorthwallSim", "x": 65, "y": 420, "shape": "diamond", "size": 24,},
-          {"map": "NorthwallSim", "x": 65, "y": 420, "shape": "diamond", "size": 24,},
-          {"map": "NorthwallSim", "x": 65, "y": 420, "shape": "diamond", "size": 24,},
-          {"map": "NorthwallSim", "x": 65, "y": 420, "shape": "diamond", "size": 24,},
-          {"map": "NorthwallSim", "x": 65, "y": 420, "shape": "diamond", "size": 24,},
-          {"map": "NorthwallSim", "x": 65, "y": 420, "shape": "diamond", "size": 24,},
-          {"map": "NorthwallSim", "x": 65, "y": 420, "shape": "diamond", "size": 24,},
-          {"map": "NorthwallSim", "x": 65, "y": 420, "shape": "diamond", "size": 24,},
-          {"map": "NorthwallSim", "x": 65, "y": 420, "shape": "diamond", "size": 24,},
-          {"map": "NorthwallSim", "x": 65, "y": 420, "shape": "diamond", "size": 24,},
           {"map": "NorthwallSim", "x": 65, "y": 420, "shape": "diamond", "size": 24,}
         ]
       }
@@ -55,16 +45,14 @@
             "access_rules":["[Fleece]"],
             "sections": [{"name": "Advancement 1", "item_count": 1},
                          {"name": "Advancement 2", "item_count": 1}],
-            "map_locations":[{"map": "NorthwallSim", "x": 288, "y": 404},
-                             {"map": "NorthwallSim", "x": 288, "y": 404}]
+            "map_locations":[{"map": "NorthwallSim", "x": 288, "y": 404}]
         },
         {
             "name": "Skull Tree",
             "access_rules":["[Fleece]"],
             "sections": [{"name": "Advancement 1", "item_count": 1},
                          {"name": "Advancement 2", "item_count": 1}],
-            "map_locations":[{"map": "NorthwallSim", "x": 416, "y": 275},
-                             {"map": "NorthwallSim", "x": 416, "y": 275}]
+            "map_locations":[{"map": "NorthwallSim", "x": 416, "y": 275}]
         },
         {
             "name": "River",
@@ -92,7 +80,7 @@
               {"access_rules":["[Fleece]"],
               "name": "256 Population","item_count": 1},
               {
-                "access_rules": ["NWAdvancement, [Fleece]"],
+                "access_rules": ["NWAdvancement2, [Fleece]"],
                 "name": "512 Population",
                 "item_count": 1
               },
@@ -103,12 +91,6 @@
               }
             ],
             "map_locations": [
-              {"map": "NorthwallSim", "x": 159, "y": 352},
-              {"map": "NorthwallSim", "x": 159, "y": 352},
-              {"map": "NorthwallSim", "x": 159, "y": 352},
-              {"map": "NorthwallSim", "x": 159, "y": 352},
-              {"map": "NorthwallSim", "x": 159, "y": 352},
-              {"map": "NorthwallSim", "x": 159, "y": 352},
               {"map": "NorthwallSim", "x": 159, "y": 352}
             ]
         }
@@ -126,26 +108,15 @@
               {"name": "Trunk Right Side", "item_count": 1},
               {"name": "Root", "item_count": 1},
               {"name": "Right Second Branch", "item_count": 1},
+			  {"name": "Trunk Center", "item_count": 1},
               {"name": "Left Second Branch", "item_count": 1},
               {"name": "Right Atop Third Branch", "item_count": 1},
               {"name": "Right Treeside Third Branch", "item_count": 1},
               {"name": "Right Atop Fourth Branch", "item_count": 1},
               {"name": "Top Of Tree Shaft", "item_count": 1},
-			  {"name": "Trunk Center", "item_count": 1},
               {"name": "Arctic Wyvern", "item_count": 1}
             ],
             "map_locations": [
-              {"map": "NorthwallSim", "x": 433, "y": 238, "shape": "diamond", "size": 24,},
-              {"map": "NorthwallSim", "x": 433, "y": 238, "shape": "diamond", "size": 24,},
-              {"map": "NorthwallSim", "x": 433, "y": 238, "shape": "diamond", "size": 24,},
-              {"map": "NorthwallSim", "x": 433, "y": 238, "shape": "diamond", "size": 24,},
-              {"map": "NorthwallSim", "x": 433, "y": 238, "shape": "diamond", "size": 24,},
-              {"map": "NorthwallSim", "x": 433, "y": 238, "shape": "diamond", "size": 24,},
-              {"map": "NorthwallSim", "x": 433, "y": 238, "shape": "diamond", "size": 24,},
-              {"map": "NorthwallSim", "x": 433, "y": 238, "shape": "diamond", "size": 24,},
-              {"map": "NorthwallSim", "x": 433, "y": 238, "shape": "diamond", "size": 24,},
-              {"map": "NorthwallSim", "x": 433, "y": 238, "shape": "diamond", "size": 24,},
-			  {"map": "NorthwallSim", "x": 433, "y": 238, "shape": "diamond", "size": 24,},
               {"map": "NorthwallSim", "x": 433, "y": 238, "shape": "diamond", "size": 24,}
             ]
           }

@@ -112,7 +112,8 @@
     "name": "Level Up",
     "type": "consumable",
     "img": "images/items/Level.png",
-    "max_quantity": 16,
+	"min_quantity": 1,
+    "max_quantity": 17,
     "increment": 1,
     "decrement": 1,
     "initial_quantity": 1,
@@ -238,7 +239,8 @@
     "name": "Progressive Arrow",
     "type": "consumable",
     "img": "images/items/Arrow.png",
-    "max_quantity": 7,
+    "max_quantity": 8,
+	"min_quantity": 1,
     "increment": 1,
     "decrement": 1,
     "initial_quantity": 1,
@@ -287,52 +289,5 @@
     "type": "toggle",
     "img": "images/items/Earthquake.png",
     "codes": "Earthquake"
-  },
-  {
-    "name": "Progressive",
-    "type": "progressive",
-    "allow_disabled": true,
-    "initial_stage_idx": 0,
-    "stages": [
-      {
-        "img": "images/items/progressive.png",
-        "codes": "progressive",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/items/progressive_2.png",
-        "codes": "progressive_2",
-        "inherit_codes": false
-      }
-    ]
-  },
-  {
-    "name": "Consumable",
-    "type": "consumable",
-    "img": "images/items/consumable.png",
-    "max_quantity": 8,
-    "increment": 1,
-    "decrement": 1,
-    "initial_quantity": 1,
-    "overlay_background": "#000000",
-    "overlay_font_size": 8,
-    "codes": "consumable"
-  },
-  {
-    "name": "Progressive Toggle",
-    "type": "progressive_toggle",
-    "initial_stage_idx": 0,
-    "stages": [
-      {
-        "img": "images/items/progressive.png",
-        "codes": "progressive_toggle",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/items/progressive_2.png",
-        "codes": "progressive_toggle_2",
-        "inherit_codes": false
-      }
-    ]
   }
 ]

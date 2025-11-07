@@ -1,110 +1,252 @@
 {
-  "tracker_default": {
-    "type": "container",
-    "background": "#000000",
-    "content": {
-      "type": "dock",
-      "dropshadow": true,
-      "content": [
-        {
-          "type": "dock",
-          "dock": "bottom",
-          "content": [
-            {
-              "type": "group",
-              "header": "Simulation Items",
-              "dock": "left",
-              "margin": "0,0,3,0",
-              "content": {
-                "type": "layout",
-                "h_alignment": "center",
-                "v_alignment": "center",
-                "key": "sim_items"
-              }
-            },
-			{
-              "type": "group",
-              "header": "Act Items",
-              "dock": "left",
-              "margin": "0,0,3,0",
-              "content": {
-                "type": "layout",
-                "h_alignment": "center",
-                "v_alignment": "center",
-                "key": "act_items"
-              }
-            }
-          ]
-        },
-        {
-          "type": "tabbed",
-          "tabs": [
-            {
-              "title": "Fillmore",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "FillmoreSim"
-                ]
-              }
-            },
-            {
-              "title": "Bloodpool",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "BloodpoolSim"
-                ]
-              }
-            },
-            {
-              "title": "Kasandora",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "KasandoraSim"
-                ]
-              }
-            },
-            {
-              "title": "Aitos",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "AitosSim"
-                ]
-              }
-            },
-            {
-              "title": "Marahna",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "MarahnaSim"
-                ]
-              }
-            },
-            {
-              "title": "Northwall",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "NorthwallSim"
-                ]
-              }
-            },
-            {
-              "title": "Sky",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "Sky"
-                ]
-              }
-            }
-          ]
-        }
-      ]
-    }
-  }
+	"tracker_default": {
+		"type": "container",
+		"background": "#000000",
+		"content": {
+			"type": "dock",
+			"dropshadow": true,
+			"content": [
+				{
+					"type": "dock",
+					"dock": "bottom",
+					"content": [
+						{
+							"type": "group",
+							"header": "Simulation Items",
+							"dock": "left",
+							"margin": "0,0,3,0",
+							"content": {
+								"type": "layout",
+								"h_alignment": "center",
+								"v_alignment": "center",
+								"key": "sim_items"
+							}
+						},
+						{
+							"type": "group",
+							"header": "Act Items",
+							"dock": "left",
+							"margin": "0,0,3,0",
+							"content": {
+								"type": "layout",
+								"h_alignment": "center",
+								"v_alignment": "center",
+								"key": "act_items"
+							}
+						}
+					]
+				},
+				{
+					"type": "tabbed",
+					"tabs": [
+						{
+							"title": "Simulation",
+							"content": {
+								"type": "tabbed",
+								"dock": "top",
+								"tabs": [
+									{
+										"title": "Fillmore",
+										"content": {
+											"type": "map",
+											"maps": ["FillmoreSim"]
+										}
+									},
+									{
+										"title": "Bloodpool",
+										"content": {
+											"type": "map",
+											"maps": ["BloodpoolSim"]
+										}
+									},
+									{
+										"title": "Kasandora",
+										"content": {
+											"type": "map",
+											"maps": ["KasandoraSim"]
+										}
+									},
+									{
+										"title": "Aitos",
+										"content": {
+											"type": "map",
+											"maps": ["AitosSim"]
+										}
+									},
+									{
+										"title": "Marahna",
+										"content": {
+											"type": "map",
+											"maps": ["MarahnaSim"]
+										}
+									},
+									{
+										"title": "Northwall",
+										"content": {
+											"type": "map",
+											"maps": ["NorthwallSim"]
+										}
+									},
+									{
+										"title": "Sky",
+										"content": {
+											"type": "map",
+											"maps": ["Sky"]
+										}
+									}
+								]
+							}
+						},
+						{
+							"title": "Acts",
+							"content": {
+								"type": "tabbed",
+								"dock": "top",
+								"tabs": [
+									{
+										"title": "Fillmore",
+										"content": {
+											"type": "tabbed",
+											"dock": "top",
+											"tabs": [
+												{
+													"title": "Act 1",
+													"content": {
+														"type": "map",
+														"maps": ["FMAct1"]
+													}
+												},
+												{
+													"title": "Act 2",
+													"content": {
+														"type": "map",
+														"maps": ["FMAct2"]
+													}
+												}
+											]
+										}
+									},
+									{
+										"title": "Bloodpool",
+										"content": {
+											"type": "tabbed",
+											"dock": "top",
+											"tabs": [
+												{
+													"title": "Act 1",
+													"content": {
+														"type": "map",
+														"maps": ["BPAct1"]
+													}
+												},
+												{
+													"title": "Act 2",
+													"content": {
+														"type": "map",
+														"maps": ["BPAct2"]
+													}
+												}
+											]
+										}
+									},
+									{
+										"title": "Kasandora",
+										"content": {
+											"type": "tabbed",
+											"dock": "top",
+											"tabs": [
+												{
+													"title": "Act 1",
+													"content": {
+														"type": "map",
+														"maps": ["KDAct1"]
+													}
+												},
+												{
+													"title": "Act 2",
+													"content": {
+														"type": "map",
+														"maps": ["KDAct2"]
+													}
+												}
+											]
+										}
+									},
+									{
+										"title": "Aitos",
+										"content": {
+											"type": "tabbed",
+											"dock": "top",
+											"tabs": [
+												{
+													"title": "Act 1",
+													"content": {
+														"type": "map",
+														"maps": ["ATAct1"]
+													}
+												},
+												{
+													"title": "Act 2",
+													"content": {
+														"type": "map",
+														"maps": ["ATAct2"]
+													}
+												}
+											]
+										}
+									},
+									{
+										"title": "Marahna",
+										"content": {
+											"type": "tabbed",
+											"dock": "top",
+											"tabs": [
+												{
+													"title": "Act 1",
+													"content": {
+														"type": "map",
+														"maps": ["MHAct1"]
+													}
+												},
+												{
+													"title": "Act 2",
+													"content": {
+														"type": "map",
+														"maps": ["MHAct2"]
+													}
+												}
+											]
+										}
+									},
+									{
+										"title": "Northwall",
+										"content": {
+											"type": "tabbed",
+											"dock": "top",
+											"tabs": [
+												{
+													"title": "Act 1",
+													"content": {
+														"type": "map",
+														"maps": ["NWAct1"]
+													}
+												},
+												{
+													"title": "Act 2",
+													"content": {
+														"type": "map",
+														"maps": ["NWAct2"]
+													}
+												}
+											]
+										}
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	}
 }

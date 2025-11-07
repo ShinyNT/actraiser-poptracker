@@ -25,7 +25,7 @@ function resetItem(item_code, item_type)
 			obj.CurrentStage = 0
 			obj.Active = false
 		elseif item_type == "consumable" then
-			obj.AcquiredCount = 0
+			obj.AcquiredCount = obj.MinCount or 0
 		elseif item_type == "custom" then
 			-- your code for your custom lua items goes here
 		elseif item_type == "static" and AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then

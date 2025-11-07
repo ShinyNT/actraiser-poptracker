@@ -1,0 +1,102 @@
+[
+	{
+		"name": "Bloodpool Bridge",
+		"access_rules": ["Level:2"],
+        "children": [
+			{
+            "sections": [
+				{"ref": "Bloodpool Bridge/Act 1 - Bridge/Platform Near Entrance", "name": "Platform Near Entrance","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "BPAct1", "x": 640, "y": 260, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Bloodpool Bridge/Act 1 - Bridge/Center Bridge", "name": "Center Bridge","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "BPAct1", "x": 1890, "y": 200, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Bloodpool Bridge/Act 1 - Bridge/Falling Bridge", "name": "Falling Bridge","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "BPAct1", "x": 2640, "y": 310, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Bloodpool Bridge/Act 1 - Bridge/Platform Near Manitcore", "name": "Platform Near Manitcore","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "BPAct1", "x": 3120, "y": 295, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Bloodpool Bridge/Act 1 - Bridge/Manticore", "name": "Manticore","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "BPAct1", "x": 4060, "y": 440, "size": 35}
+            ]
+			}
+        ]
+    },
+	{
+		"name": "Bloodpool Castle",
+		"access_rules": ["@Bloodpool, Lightning, Bridge, Bread, Sun, Skull"],
+        "children": [
+			{
+            "sections": [
+				{"ref": "Bloodpool Castle/Act 2 - Castle/Left Elevator", "name": "Left Elevator","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "BPAct2", "x": 1235, "y": 1670, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Bloodpool Castle/Act 2 - Castle/Dark Room", "name": "Dark Room","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "BPAct2", "x": 2175, "y": 1800, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Bloodpool Castle/Act 2 - Castle/Moat", "name": "Moat","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "BPAct2", "x": 2930, "y": 1700, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Bloodpool Castle/Act 2 - Castle/Right Elevator", "name": "Right Elevator","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "BPAct2", "x": 3840, "y": 920, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Bloodpool Castle/Act 2 - Castle/Stone Ledges", "name": "Stone Ledges","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "BPAct2", "x": 4910, "y": 180, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Bloodpool Castle/Act 2 - Castle/Zeppelin Wolf", "name": "Zeppelin Wolf","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "BPAct2", "x": 6080, "y": 50, "size": 35}
+            ]
+			}
+		]
+    }
+]

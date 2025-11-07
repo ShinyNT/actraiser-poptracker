@@ -37,6 +37,12 @@ if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
     Tracker:AddLocations("locations/marahna.jsonc")
     Tracker:AddLocations("locations/northwall.jsonc")
     Tracker:AddLocations("locations/sky.jsonc")
+	Tracker:AddLocations("locations/act/fm.jsonc")
+	Tracker:AddLocations("locations/act/bp.jsonc")
+	Tracker:AddLocations("locations/act/kd.jsonc")
+	Tracker:AddLocations("locations/act/at.jsonc")
+	Tracker:AddLocations("locations/act/mh.jsonc")
+	Tracker:AddLocations("locations/act/nw.jsonc")
     --Tracker:AddLocations("locations/locations.jsonc")
 end
 

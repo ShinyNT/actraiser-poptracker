@@ -1,0 +1,94 @@
+[
+	{
+		"name": "Marahna Swamp",
+		"access_rules": ["Level:8"],
+        "children": [
+			{
+            "sections": [
+				{"ref": "Marahna Swamp/Act 1 - Swamp/Ruins Left", "name": "Ruins Left","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "MHAct1", "x": 1360, "y": 225, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Marahna Swamp/Act 1 - Swamp/Ruins Right", "name": "Ruins Right","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "MHAct1", "x": 1790, "y": 310, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Marahna Swamp/Act 1 - Swamp/Hut", "name": "Hut","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "MHAct1", "x": 2575, "y": 405, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Marahna Swamp/Act 1 - Swamp/Pillars", "name": "Pillars","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "MHAct1", "x": 2960, "y": 290, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Marahna Swamp/Act 1 - Swamp/Rafflasher", "name": "Rafflasher","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "MHAct1", "x": 4055, "y": 370, "size": 35}
+            ]
+			}
+        ]
+    },
+    {
+        "name": "Marahna Temple",
+		"access_rules": ["@Marahna, Earthquake, Sun"],
+        "children": [
+			{
+            "sections": [
+				{"ref": "Marahna Temple/Act 2 - Cult Temple/Falling Platforms", "name": "Falling Platforms","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "MHAct2", "x": 1265, "y": 930, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Marahna Temple/Act 2 - Cult Temple/Left Path Ledge", "name": "Left Path Ledge","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "MHAct2", "x": 750, "y": 1795, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Marahna Temple/Act 2 - Cult Temple/Right Path Between Spikes", "name": "Right Path Between Spikes","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "MHAct2", "x": 1665, "y": 1860, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Marahna Temple/Act 2 - Cult Temple/Hidden Pillar", "name": "Hidden Pillar","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "MHAct2", "x": 1040, "y": 2555, "size": 35}
+            ]
+			},
+			{
+            "sections": [
+				{"ref": "Marahna Temple/Act 2 - Cult Temple/Kalia", "name": "Kalia","item_count": 1}
+            ],
+            "map_locations": [
+				{"map": "MHAct2", "x": 1690, "y": 2460, "size": 35}
+            ]
+			}
+        ]
+    }
+]

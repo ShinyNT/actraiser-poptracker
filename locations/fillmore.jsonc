@@ -13,11 +13,6 @@
               {"name": "Centaur", "item_count": 1}
             ],
             "map_locations": [
-              {"map": "FillmoreSim", "x": 400, "y": 210, "shape": "diamond", "size": 24,},
-              {"map": "FillmoreSim", "x": 400, "y": 210, "shape": "diamond", "size": 24,},
-              {"map": "FillmoreSim", "x": 400, "y": 210, "shape": "diamond", "size": 24,},
-              {"map": "FillmoreSim", "x": 400, "y": 210, "shape": "diamond", "size": 24,},
-              {"map": "FillmoreSim", "x": 400, "y": 210, "shape": "diamond", "size": 24,},
               {"map": "FillmoreSim", "x": 400, "y": 210, "shape": "diamond", "size": 24,}
             ]
           }
@@ -118,11 +113,6 @@
               }
             ],
             "map_locations": [
-              {"map": "FillmoreSim", "x": 223, "y": 219},
-              {"map": "FillmoreSim", "x": 223, "y": 219},
-              {"map": "FillmoreSim", "x": 223, "y": 219},
-              {"map": "FillmoreSim", "x": 223, "y": 219},
-              {"map": "FillmoreSim", "x": 223, "y": 219},
               {"map": "FillmoreSim", "x": 223, "y": 219}
             ]
           }
@@ -146,14 +136,6 @@
               {"name": "Minotaurus", "item_count": 1}
             ],
             "map_locations": [
-              {"map": "FillmoreSim", "x": 400, "y": 350, "shape": "diamond", "size": 24,},
-              {"map": "FillmoreSim", "x": 400, "y": 350, "shape": "diamond", "size": 24,},
-              {"map": "FillmoreSim", "x": 400, "y": 350, "shape": "diamond", "size": 24,},
-              {"map": "FillmoreSim", "x": 400, "y": 350, "shape": "diamond", "size": 24,},
-              {"map": "FillmoreSim", "x": 400, "y": 350, "shape": "diamond", "size": 24,},
-              {"map": "FillmoreSim", "x": 400, "y": 350, "shape": "diamond", "size": 24,},
-              {"map": "FillmoreSim", "x": 400, "y": 350, "shape": "diamond", "size": 24,},
-              {"map": "FillmoreSim", "x": 400, "y": 350, "shape": "diamond", "size": 24,},
               {"map": "FillmoreSim", "x": 400, "y": 350, "shape": "diamond", "size": 24,}
             ]
           }
