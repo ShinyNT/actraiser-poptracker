@@ -73,7 +73,7 @@
       },
       {
         "name": "Pyramid",
-        "access_rules": ["Earthquake, Level:6"],
+        "access_rules": ["Earthquake, Level:8"],
         "sections": [
           {"name": "Source Of Life", "item_count": 1}
         ],
